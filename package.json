@@ -16,6 +16,12 @@
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
     "format:check": "prettier --check \"**/*.{ts,tsx,js,jsx,json,md}\""
   },
+  "dependencies": {
+    "expo-router": "~6.0.24"
+  },
+  "overrides": {
+    "react": "19.1.0"
+  },
   "devDependencies": {
     "turbo": "^2.0.0",
     "typescript": "^5.4.0",
@@ -37,6 +43,10 @@
     "esbuild@0.21.5": true,
     "esbuild@0.17.19": true,
     "workerd@1.20250718.0": true,
-    "sharp@0.33.5": true
+    "sharp@0.33.5": true,
+    "react-native-screens@4.4.0": true,
+    "react-native-safe-area-context@5.0.0": true,
+    "standard-navigation@0.0.7": true,
+    "expo-linking@7.0.5": true
   }
 }
